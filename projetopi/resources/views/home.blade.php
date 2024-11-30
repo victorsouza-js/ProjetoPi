@@ -3,6 +3,8 @@
 @section('title', 'Home - PowerUp Suplementos')
 
 @section('content')
+
+
     <div class="div-nav">
         <img src="https://hidromaniafitness.com.br/musculacao/images/musculacao.png">
         <div class="base">
@@ -29,16 +31,16 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src=" assets/imgs/banner-1.jpg" class="d-block w-100">
+            <img src=" {{ asset('assets/imgs/banner-1.jpg') }}" class="d-block w-100">
           </div>
           <div class="carousel-item">
-            <img src="assets/imgs/banner-2.jpg" class="d-block w-100">
+            <img src="{{ asset('assets/imgs/banner-2.jpg') }}" class="d-block w-100">
           </div>
           <div class="carousel-item">
-            <img src="assets/imgs/banner-3.jpg" class="d-block w-100">
+            <img src="{{ asset('assets/imgs/banner-3.jpg') }}" class="d-block w-100">
           </div>
           <div class="carousel-item">
-            <img src="assets/imgs/banner-4.jpg" class="d-block w-100">
+            <img src="{{ asset('assets/imgs/banner-4.jpg') }}" class="d-block w-100">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
