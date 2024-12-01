@@ -24,7 +24,7 @@ body{
 
 
 .container{
-    margin-left: 15vh;
+    margin-left: 11vh;
     padding: 70px;
 }
 
@@ -63,6 +63,7 @@ body{
     background-color: rgb(0, 89, 255);
     border: none;
     color: white;
+    border-radius: 5vh;
 }
 
 .container button:hover{
