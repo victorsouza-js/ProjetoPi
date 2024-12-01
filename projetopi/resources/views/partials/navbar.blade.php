@@ -1,7 +1,7 @@
 <nav class="navbar bg-body-tertiary">
     <div class="container-fluid">
         <div class="nav-bar">
-            <img src="{{ asset('assets/imgs/logo.png') }}"> 
+            <img src="{{ asset('imgs/logo.png') }}"> 
             <h2>PowerUp</h2>
         </div>
         <a href="{{ url('/') }}" class="navbar-link">Home</a> 

@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-image: url(https://img.freepik.com/fotos-gratis/halteres-no-chao-de-uma-academia-ai-generative_123827-23743.jpg);
     background-repeat: no-repeat;
@@ -568,3 +573,4 @@ footer p {
 footer p i {
     margin: 0 20px;
 }
+
