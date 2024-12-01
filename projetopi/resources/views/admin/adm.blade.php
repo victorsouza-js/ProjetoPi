@@ -5,7 +5,7 @@
 @section('content')
 
 <div class="admin-container">
-      
+    
        <lottie-player
             src="{{ asset('animations/img.json') }}"
             background="transparent"
@@ -18,9 +18,21 @@
        <div class="container">
         <form>
             <h1>Login</h1>
+            <div class="input-container">
+            <i class="fa-solid fa-user"></i>
             <input type="text" placeholder="Usuario">
-            <input type="text" placeholder="ID Cadastro">
+            </div>
+            
+            <div class="input-container">
+            <i class="fa-solid fa-lock"></i>
             <input type="password" placeholder="Senha">
+            </div>
+
+            <div class="input-container">
+            <i class="fa-solid fa-id-card"></i>
+            <input type="text" placeholder="ID Cadastro">
+            </div>
+
             <a href="">Esqueceu a senha?</a>
             <button type="submit">Entrar</button>
         </form>
