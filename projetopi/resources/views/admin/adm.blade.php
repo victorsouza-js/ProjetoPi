@@ -5,9 +5,16 @@
 @section('content')
 
 <div class="admin-container">
-       <div class="img-admin">
-        <img src="{{ asset('imgs/logo.png') }}">
-       </div>
+      
+       <lottie-player
+            src="{{ asset('animations/img.json') }}"
+            background="transparent"
+            speed="1"
+            style="width: 300px; height: 300px; margin-top: 11vh;"
+            loop
+            autoplay>
+        </lottie-player>
+        
        <div class="container">
         <form>
             <h1>Login</h1>

@@ -21,13 +21,10 @@ body{
     display: flex;
 }
 
-.img-admin img{
-    width: 400px;
-    margin-top: 4vh;
-}
+
 
 .container{
-    margin-left: 10vh;
+    margin-left: 15vh;
     padding: 70px;
 }
 
