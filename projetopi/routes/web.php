@@ -25,3 +25,7 @@ Route::get('/sobre', function () {
 Route::get('/catalogo', function () {
     return view('pages/catalogo'); // Página de produtos
 });
+
+Route::get('/carrinho', function () {
+    return view('pages/carrinho'); // Página de carrinho
+});

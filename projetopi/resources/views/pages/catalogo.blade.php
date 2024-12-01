@@ -25,12 +25,12 @@
 
     <header>
         <div class="img-header">
-            <img src="../assets/imgs/logo.png">
+            <img src="{{ asset('imgs/logo.png') }}">
         </div>
         <div class="h1-header">
             <h1>PowerUp Suplementos</h1>
         </div>
-        <a class="ver-carrinho" href="../pages/carrinho.html">Ver Carrinho <span id="contador-carrinho">0</span></a>
+        <a class="ver-carrinho" href="{{ url('/carrinho') }}">Ver Carrinho <span id="contador-carrinho">0</span></a>
 
     </header>
 
