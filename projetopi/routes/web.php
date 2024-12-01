@@ -29,3 +29,7 @@ Route::get('/catalogo', function () {
 Route::get('/carrinho', function () {
     return view('pages/carrinho'); // Página de carrinho
 });
+
+Route::get('/admin', function(){
+    return view('admin/adm');
+});

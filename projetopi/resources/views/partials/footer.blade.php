@@ -11,5 +11,10 @@
             <i class="fa-brands fa-instagram"></i> Instagram
         </a>
     </div>
+    <p style="margin-top: 2vh;">
+    <a href="/politica-de-privacidade" style="color: #ddd; margin: 0 10px;">Política de Privacidade</a> | 
+    <a href="/termos-de-uso" style="color: #ddd; margin: 0 10px;">Termos de Uso</a>
+    </p>
     <p style="margin-top: 2vh;">&copy; 2024 PowerUp Suplementos. Todos os direitos reservados.</p>
+    
 </footer>
