@@ -22,4 +22,6 @@ Route::get('/sobre', function () {
     return view('pages/sobre'); // Página de sobre
 });
 
-
+Route::get('/catalogo', function () {
+    return view('pages/catalogo'); // Página de produtos
+});

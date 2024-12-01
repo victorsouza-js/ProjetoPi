@@ -13,7 +13,6 @@
             <button type="submit">Logar</button>
         </form>
     </div>
-</body>
-</html>
+
 
 @endsection

@@ -15,7 +15,6 @@
             <button type="submit">Concluir Cadastro</button>
         </form>
     </div>
-</body>
-</html>
+
 
 @endsection
