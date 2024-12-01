@@ -3,21 +3,8 @@
 @section('title', 'Sobre - PowerUp Suplementos')
 
 @section('content')
-<link rel="stylesheet" href="{{ asset('css/sobre.css') }}">
 
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <link rel="shortcut icon" type="x-icon" href="../assets/imgs/logo.png">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sobre a PowerUp Suplementos</title>
-  <link rel="stylesheet" href="../assets/css/sobre.css">
-</head>
-
-<body>
   <div class="div-sobre">
     <h2>Quem Somos</h2>
     <section class="missao-visao-valores">
