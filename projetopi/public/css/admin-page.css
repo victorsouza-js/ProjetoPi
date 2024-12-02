@@ -63,6 +63,7 @@ body{
     border: none;
     color: white;
     border-radius: 5vh;
+    font-size: 17px;
 }
 
 .container button:hover{

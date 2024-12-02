@@ -30,7 +30,7 @@
 
             <div class="input-container">
             <i class="fa-solid fa-id-card"></i>
-            <input type="text" placeholder="ID Cadastro">
+            <input type="text" placeholder="ID ">
             </div>
 
             <a href="">Esqueceu a senha?</a>
