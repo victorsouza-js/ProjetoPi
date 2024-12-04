@@ -25,6 +25,23 @@ class ProdutoSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
+
+            [
+                'nome' => 'Pré Treino Insany Clow',
+                'preco' => '124.00',
+                'qtd_estoque' => '730',
+                'categoria' => 'Pré Treino',
+                'status' => true,
+                'codigo_sku' => 'PROD123456',
+                'preco_promocional' => '90.00',
+                'peso' => '0.300',
+                'dimensoes' => '15x7x0.8 cm',
+                'fornecedor' => 'Tech Supply Ltda.',
+                'tags' => 'suplementos, pre treinos',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+           
            
             
         ]);
