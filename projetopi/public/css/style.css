@@ -4,10 +4,7 @@
 }
 
 body {
-    background-image: url(https://img.freepik.com/fotos-gratis/halteres-no-chao-de-uma-academia-ai-generative_123827-23743.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
+    background-color: #0f2027;
 }
 
 
@@ -241,7 +238,7 @@ body {
 
 
 .ofertas {
-    background-color: #0a0a0a4f;
+    background-color: #ffffff4f;
     padding: 50px 20px;
     margin: 20px auto;
     border-radius: 10px;
@@ -431,7 +428,7 @@ body {
 }
 
 #beneficios {
-    margin-bottom: 5vh;
+    margin-bottom: 8vh;
     margin-left: 5vh;
 }
 
