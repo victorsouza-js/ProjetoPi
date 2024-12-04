@@ -100,24 +100,6 @@
     </div>
 </div>
 
-<div class="outros-servicos">
-    <h1>COMPRE POR CATEGORIA</h1>
-    <div class="linha"></div>
-    <div class="box-img">
-        <img src="https://www.masterwaysuplementos.com.br/image/cachewebp/catalog/fotos-seo/creatina-300g-masterway-suplementos-a-1400x1400.webp">
-        <img src="https://acdn.mitiendanube.com/stores/001/354/536/products/acaes1-5c6fcb30c933f9027e16795133254715-640-0.png">
-    </div>
-
-    <div class="box-img">
-        <img src="https://3vs.fbitsstatic.net/media/bannerbeast300g_desktop.png?v=202404192036">
-        <img src="https://integralmedica.vtexassets.com/arquivos/ids/166409-500-auto?v=638458468541030000&width=500&height=auto&aspect=true">
-    </div>
-
-    <div class="box-img">
-        <img src="https://www.gsuplementos.com.br/upload/produto/layout/107/produto-principal-v2.webp">
-        <img src="https://integralmedica.vtexassets.com/arquivos/ids/166256-800-auto?v=638380708296070000&width=800&height=auto&aspect=true">
-    </div>
-</div>
 
 <div class="container">
     <div class="card">

@@ -15,6 +15,7 @@
             <input type="email" placeholder="E-mail">
             <input type="password" placeholder="Senha">
             <input type="password" placeholder="Confirmar Senha">
+            <a href="">Esqueceu sua senha?</a>
             <button type="submit">Concluir Cadastro</button>
         </form>
         </div>
