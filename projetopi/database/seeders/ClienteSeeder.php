@@ -36,6 +36,19 @@ class ClienteSeeder extends Seeder
                 'forma_de_pagamento' => 'Boleto',
                 'compra_efetuada' => true,
             ],
+            [
+                'nome' => 'Pedro Souza',
+                'telefone' => '81 98170-0054',
+                'endereco' => 'Rua da Algria, 76',
+                'cpf' => '022.589.664-00',
+                'email' => 'pedrosouza@gmail.com',
+                'cep' => '55745-000',
+                'cidade' => 'Limoeiro',
+                'bairro' => 'Rua da Alegria',
+                'uf' => 'PE',
+                'forma_de_pagamento' => 'Pix',
+                'compra_efetuada' => true,
+            ],
               
         ]);
     }
