@@ -34,6 +34,8 @@ Route::get('/admin', function(){
     return view('admin/adm');
 });
 
+
+
 Route::get('/finalizar', function(){
     return view('pages/finalizar-compra');
 });
