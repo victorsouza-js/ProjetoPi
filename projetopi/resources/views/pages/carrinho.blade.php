@@ -65,7 +65,7 @@
     
     <script>
         function finalizarCompra() {
-            window.location.href = "finalizar-compra.html";
+            window.location.href = "{{asset('/finalizar')}}";
         }
     </script>
 

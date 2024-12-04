@@ -124,7 +124,7 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: rgb(182, 181, 181);
+    background-color: rgb(255, 255, 255);
     height: 100vh;
 }
 
@@ -322,8 +322,6 @@ body {
     transform: scale(0.95);
 }
 
-
-
 .outros-servicos {
     display: flex;
     flex-direction: column;
@@ -331,17 +329,17 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    background-color: transparent;
     padding: 50px;
 }
 
 .outros-servicos h1 {
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
 .outros-servicos .linha {
-    border: 10px solid black;
+    border: 10px solid white;
     width: 200px;
     border-radius: 5vh;
 }
@@ -353,7 +351,7 @@ body {
 
 .box-img img {
     border-radius: 10px;
-    width: 400px;
+    width: 250px;
     object-fit: cover;
     margin: 35px;
 }
@@ -361,8 +359,6 @@ body {
 .carousel-item .d-block{
     height: 800px;
 }
-
-
 
 .container {
     display: flex;

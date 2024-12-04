@@ -114,7 +114,7 @@
     </div>
 
     <div class="box-img">
-        <img src="https://www.gsuplementos.com.br/upload/categoria-secundaria/layout/59/hot.webp">
+        <img src="https://www.gsuplementos.com.br/upload/produto/layout/107/produto-principal-v2.webp">
         <img src="https://integralmedica.vtexassets.com/arquivos/ids/166256-800-auto?v=638380708296070000&width=800&height=auto&aspect=true">
     </div>
 </div>
