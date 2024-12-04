@@ -6,14 +6,18 @@
 
 
     <div class="nav-cad">
+        <div class="cad">
+        <img src="{{ asset('imgs/logo.png') }}" alt="">
+        </div>
+        <div class="form-cad">
         <form>
-            <img src="{{ asset('imgs/logo.png') }}" alt="">
             <input type="text" placeholder="Usuário">
             <input type="email" placeholder="E-mail">
             <input type="password" placeholder="Senha">
             <input type="password" placeholder="Confirmar Senha">
             <button type="submit">Concluir Cadastro</button>
         </form>
+        </div>
     </div>
 
 

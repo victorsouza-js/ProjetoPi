@@ -16,7 +16,6 @@ body {
     width: 80px;
 }
 
-
 .nav-bar h2 {
     font-size: 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -354,9 +353,9 @@ body {
 
 .box-img img {
     border-radius: 10px;
-    width: 250px;
+    width: 400px;
     object-fit: cover;
-    margin: 30px;
+    margin: 35px;
 }
 
 .carousel-item .d-block{
