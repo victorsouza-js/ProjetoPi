@@ -84,19 +84,19 @@
 <div class="grid-container">
     <div class="grid-item">
         <img src="https://img.odcdn.com.br/wp-content/uploads/2021/08/shutterstock_1861917607.jpg" alt="Ganho de Massa">
-        <div class="overlay-text">Ganho de Massa</div>
+        <div class="overlay-text">GANHO DE MASSA</div>
     </div>
     <div class="grid-item">
         <img src="https://blog.lionfitness.com.br/wp-content/uploads/2018/10/muscula%C3%A7%C3%A3o-benef%C3%ADcios.jpg" alt="Emagrecimento">
-        <div class="overlay-text">Saúde</div>
+        <div class="overlay-text">SAÚDE</div>
     </div>
     <div class="grid-item">
         <img src="https://blog.gsuplementos.com.br/wp-content/uploads/2019/11/312844-como-escolher-o-tipo-de-treino-ideal-para-alcancar-seus-objetivos-scaled.jpg" alt="Melhora da Autoestima">
-        <div class="overlay-text">Energia</div>
+        <div class="overlay-text">ENERGIA</div>
     </div>
     <div class="grid-item">
         <img src="https://engenhariadocorpo.com.br/wp-content/uploads/2024/03/Modelo-de-Imagem-para-Blog-1-3.png" alt="Definição Muscular">
-        <div class="overlay-text">Resultados</div>
+        <div class="overlay-text">RESULTADOS</div>
     </div>
 </div>
 
@@ -147,6 +147,18 @@
         <button type="submit" class="btn btn-success">Inscrever-se</button>
     </form>
 </div>
+
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
 
 
 

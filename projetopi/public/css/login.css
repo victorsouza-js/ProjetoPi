@@ -48,16 +48,18 @@ body{
     border: none;
     border-radius: 5vh;
     color: white;
-    background-color: gray;
+    background-color: rgba(0, 0, 0, 0.726);
     font-size: 15px;
     font-weight: bold;
     transition: all 0.3s ease-in-out;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
 .nav-login form button:hover{
     background-color: black;
     color: white;
     cursor: pointer;
+    transform: scale(1.05);
     
 }
 .nav-login ::placeholder{

@@ -1,11 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
 
 body {
-    background-color: #0f2027;
+    background-image: url(https://www.embraplan.com.br/imagens/noticias/11b986fc-d5a6-49a8-ba84-7cbbe8b6f93e.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
 }
 
 .nav-cad {
@@ -78,7 +81,7 @@ body {
     transform: scale(1.05);
 }
 
-.form-cad a{
+.form-cad a {
     color: white;
     font-size: 16px;
 }
