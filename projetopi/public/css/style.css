@@ -110,11 +110,13 @@ body {
     text-decoration: none;
     text-align: center;
     margin-top: 1vh;
+    transition: scale 0.5s;
 }
 
 .base a:hover {
     background-color: white;
     color: black;
+    scale: 1.1;
 }
 
 .sobre-nav {
