@@ -10,7 +10,7 @@
             src="{{ asset('animations/img.json') }}"
             background="transparent"
             speed="1"
-            style="width: 400px; height: 300px; margin-top: 11vh;"
+            style="width: 400px; height: 500px; margin-top: 6vh;"
             loop
             autoplay>
         </lottie-player>

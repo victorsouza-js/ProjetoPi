@@ -67,8 +67,15 @@ body{
     color: white;
     border-radius: 5vh;
     font-size: 17px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+
+    
 }
 
 .container button:hover{
     cursor: pointer;
+    transform: scale(1.05);
+    background-color: rgb(4, 4, 148);
+
 }
