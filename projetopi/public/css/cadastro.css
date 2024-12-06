@@ -26,11 +26,18 @@ body {
 .cad img {
     width: 500px;
     margin-top: 3vh;
+    margin-left: 3vh;
+    transition: scale 0.2s;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+.cad img:hover {
+    scale: 1.1;
 }
 
 .form-cad {
     padding: 90px;
-    margin-left: 5vh;
+    margin-left: 15vh;
     background-color: #0f2027da;
     border-radius: 15px;
 }
@@ -50,7 +57,7 @@ body {
     border-radius: 10px;
     outline: none;
     width: 300px;
-    transition: background-color 0.3s, transform 0.2s;
+    transition:  transform 0.2s;
 }
 
 .form-cad input:hover {
@@ -59,7 +66,7 @@ body {
 }
 
 .form-cad input:active {
-    transform: scale(0.95);
+    transform: scale(0.98);
 }
 
 .form-cad button {
@@ -71,7 +78,7 @@ body {
     border-radius: 15px;
     outline: none;
     width: 100%;
-    transition: background-color 0.3s, transform 0.2s;
+    transition: transform 0.2s;
 }
 
 .form-cad button:hover {

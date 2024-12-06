@@ -105,11 +105,11 @@ body {
     border: none;
     border: none;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
-    margin-top: 1vh;
+    margin-top: 3vh;
     transition: scale 0.5s;
 }
 
@@ -144,6 +144,11 @@ body {
 
 .sobre-nav img {
     width: 500px;
+    transition: scale 0.5s;
+}
+
+.sobre-nav img:hover{
+    scale: 1.1;
 }
 
 .sobre-nav p {
@@ -154,20 +159,24 @@ body {
 
 .sobre-nav a {
     width: 250px;
-    padding: 15px;
+    padding: 18px;
     border-radius: 5px;
     border: none;
     background-color: black;
     color: white;
     font-size: 17px;
     text-decoration: none;
+    transition: scale 0.5s;
+    font-weight: bold;
 }
 
 .sobre-nav a:hover {
     cursor: pointer;
     background-color: white;
     color: black;
-    border: 1px solid black;
+    border: 2px solid black;
+    scale: 1.1;
+    font-weight: bold;
 }
 
 .newsletter {

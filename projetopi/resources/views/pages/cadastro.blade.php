@@ -6,15 +6,10 @@
 
 
     <div class="nav-cad">
-
-    <lottie-player
-            src="{{ asset('animations/img-2.json') }}"
-            background="transparent"
-            speed="1"
-            style="width: 600px; height: 500px; margin-top: 5vh;"
-            loop
-            autoplay>
-        </lottie-player>
+        
+        <div class="cad">
+        <img src="{{ asset('imgs/logo.png') }}">
+        </div>
         
         <div class="form-cad">
         <form>
