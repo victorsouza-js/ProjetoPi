@@ -8,8 +8,9 @@
 <div class="div-nav">
     <img src="https://hidromaniafitness.com.br/musculacao/images/musculacao.png">
     <div class="base">
-        <h2>POWERUP</h2>
-        <h3>Suplementos</h3>
+        <h1>POWERUP</h1>
+        <h2>Suplementos</h2>
+        <p>Os melhores suplementos você encontra aqui!</p>
         <a class="nav-button" href="{{ url('/catalogo') }}">Confira Nossos Produtos</a>
     </div>
 </div>
