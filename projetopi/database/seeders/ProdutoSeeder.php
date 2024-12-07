@@ -19,6 +19,17 @@ class ProdutoSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
+            [
+                'nome' => 'Creatina Max 300g',
+                'preco' => '83.00',
+                'qtd_estoque' => '1004',
+                'preco_promocional' => '74.00',
+                'peso' => '0.300',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            
+            
             
             
         ]);

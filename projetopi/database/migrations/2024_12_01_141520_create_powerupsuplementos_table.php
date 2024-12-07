@@ -34,16 +34,10 @@ return new class extends Migration
         Schema::create('cliente', function (Blueprint $table) {
             $table->id();
             $table->string('nome');
-            $table->string('telefone');
-            $table->string('endereco');
-            $table->string('cpf');
             $table->string('email');
-            $table->string('cep');
-            $table->string('cidade');
-            $table->string('bairro');
-            $table->string('uf');
-            $table->string('forma_de_pagamento');
-            $table->boolean('compra_efetuada');
+            $table->string('valor_total');
+            $table->string('produto_comprado');
+            $table->string('forma_pagamento');
         });
 
         Schema::create('pagamento', function (Blueprint $table) {
