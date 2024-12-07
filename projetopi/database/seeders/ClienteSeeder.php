@@ -24,6 +24,13 @@ class ClienteSeeder extends Seeder
                 'produto_comprado' => 'Insany Clow 300g',
                 'forma_pagamento' => 'Pix',
             ],
+            [
+                'nome' => 'Felipe Barbosa',
+                'email' => 'felipebarbosa@gmail.com',
+                'valor_total' => '83.00',
+                'produto_comprado' => 'Creatina Max 300g',
+                'forma_pagamento' => 'Boleto',
+            ],
               
         ]);
     }
