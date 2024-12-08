@@ -71,6 +71,7 @@ body {
 .div-nav img {
     width: 700px;
     transition: width 0.5s;
+    margin-left: 10vh;
     filter: drop-shadow(5px 5px 5px black);
 }
 
@@ -86,7 +87,7 @@ body {
 }
 
 .base h1 {
-    font-size: 140px;
+    font-size: 160px;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     filter: drop-shadow(5px 5px 5px black);
