@@ -14,7 +14,7 @@ class CategoriasSeeder extends Seeder
      */
     public function run(): void
     {
-        DB::table('categorias')->insert([
+        DB::table('categoria')->insert([
             [
                 'nome' => 'Creatinas',
             ],
