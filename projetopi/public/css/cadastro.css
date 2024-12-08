@@ -27,12 +27,12 @@ body {
     width: 500px;
     margin-top: 3vh;
     margin-left: 3vh;
-    transition: scale 0.2s;
+    transition: scale 0.8s;
     filter: drop-shadow(1px 1px 1px black);
 }
 
 .cad img:hover {
-    scale: 1.1;
+    scale: 1.2;
 }
 
 .form-cad {

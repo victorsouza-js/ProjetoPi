@@ -58,8 +58,8 @@
             <img src="https://www.jauserve.com.br/dw/image/v2/BFJL_PRD/on/demandware.static/-/Sites-jauserve-master/default/dw04c79d4b/7899941201804.png?sw=1800"
                 alt="Whey Protein Max s:Cookies|Creme 1kg">
             <h2>Whey Protein Max s:Cookies 1kg</h2>
-            <p class="preco">R$ 127,60</p>
-            <button onclick="adicionarAoCarrinho(3, 'Whey Protein Max s:Cookies 1kg', 127.60)">Adicionar ao
+            <p class="preco">R$ 120,00</p>
+            <button onclick="adicionarAoCarrinho(3, 'Whey Protein Max s:Cookies 1kg', 120)">Adicionar ao
                 Carrinho</button>
         </div>
     </main>
@@ -177,8 +177,8 @@
             src="https://novidadesaudavel.vteximg.com.br/arquivos/ids/159243-470-470%20/Whey-Protein-Concentrado-100--Puro-Baunilha-Integralmedica-Pote-907g.png?v=638422372476570000"
             alt="Whey Protein IntegralMédica s:Baunilha 900g">
         <h2>Whey Protein IntegralMédica s:Baunilha 900g</h2>
-        <p class="preco">R$ 204,00</p>
-        <button onclick="adicionarAoCarrinho(12, 'Whey Protein IntegralMédica s:Baunilha 900g', 204)">Adicionar ao
+        <p class="preco">R$ 115,00</p>
+        <button onclick="adicionarAoCarrinho(12, 'Whey Protein IntegralMédica s:Baunilha 900g', 115)">Adicionar ao
             Carrinho</button>
     </div>
 </main>
