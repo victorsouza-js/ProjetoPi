@@ -102,6 +102,7 @@
 </div>
 
 
+
 <div class="container">
     <div class="card">
         <img src="{{ asset('imgs/img-banner-1.jpg') }}">
@@ -125,6 +126,7 @@
         </div>
     </div>
 </div>
+
 
 <div class="faq">
     <h1>PERGUNTAS FREQUENTES</h1>
@@ -156,9 +158,33 @@
     </div>
   </div>
 
+  <button id="back-to-top" class="btn btn-primary">↑</button>
+
+
   <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
   <script>
     new window.VLibras.Widget('https://vlibras.gov.br/app');
   </script>
+
+<script>
+    // Seleciona o botão
+    const backToTopButton = document.getElementById('back-to-top');
+
+    // Mostrar ou ocultar o botão ao rolar a página
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 200) {
+            backToTopButton.style.display = 'block';
+        } else {
+            backToTopButton.style.display = 'none';
+        }
+    });
+
+    // Rolar suavemente até o topo quando o botão for clicado
+    backToTopButton.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+</script>
+
+
 
 @endsection
