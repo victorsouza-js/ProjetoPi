@@ -4,6 +4,9 @@
             <img src="{{ asset('imgs/logo.png') }}"> 
             <h2>PowerUp</h2>
         </div>
+
+        
+
         <a href="{{ url('/') }}" class="navbar-link">Home</a> 
         <a href="{{ url('/contato') }}" class="navbar-link">Contato</a> 
         <a href="{{ url('/cadastro') }}" class="navbar-link">Cadastrar-se</a> 

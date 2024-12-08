@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 
 
+
 Route::get('/', function () {
     return view('pages/home'); // Página inicial
 });
@@ -40,6 +41,8 @@ Route::get('/admin', function(){
 Route::get('/finalizar', function(){
     return view('pages/finalizar-compra');
 });
+
+
 
 
 
