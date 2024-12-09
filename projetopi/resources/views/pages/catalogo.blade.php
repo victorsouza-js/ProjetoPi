@@ -106,11 +106,11 @@
 
     <div class="produto">
         <img 
-            src="https://images.tcdn.com.br/img/img_prod/1105968/100_whey_dr_peanut_max_titanium_900g_495_2_7a5511cd0e5fd437847a8ec1436d70f8.png"
-            alt="Whey Protein Max s:Avelã">
-        <h2>Whey Protein Max s:Avelã</h2>
-        <p class="preco">R$ 100,00</p>
-        <button onclick="adicionarAoCarrinho(5, 'Whey Protein Max s:Avelã', 100)">Adicionar ao Carrinho</button>
+            src="https://lojamaxtitanium.vtexassets.com/arquivos/ids/157992/100-Whey-Pote-900g-LinhaDino-CarameloMacchiato.png?v=638483764696830000"
+            alt="Whey Protein Max s:Caramelo">
+        <h2>Whey Protein Max s:Caramelo</h2>
+        <p class="preco">R$ 126,44</p>
+        <button onclick="adicionarAoCarrinho(5, 'Whey Protein Max s:Caramelo', 126.44)">Adicionar ao Carrinho</button>
     </div>
 
         <div class="produto">

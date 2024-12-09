@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Home - PowerUp Suplementos')
+@section('title', 'Suplementos: Comprar suplementos é na PowerUp Suplementos!')
 
 @section('content')
 
@@ -55,32 +55,80 @@
     </button>
 </div>
 
-<div class="ofertas">
-    <h1>PROMOÇÕES ESPECIAIS</h1>
-    <div class="linha"></div>
-    <div class="offer-item">
-        <img src="https://cdn.awsli.com.br/600x450/968/968066/produto/36982274/creatina-max-titanium-300g-wokp9u5c7m.png" alt="Oferta">
-        <h3>Creatina Max 300g 20% OFF</h3>
-        <p>De R$83,00 por R$74,90</p>
-        <a href="pages/catalogo.html" class="btn btn-primary">Comprar Agora</a>
+
+<div class="categories">
+        <!-- Card Whey Protein -->
+        <div class="category-card">
+            <img src="https://i0.wp.com/vegashop.com.br/wp-content/uploads/2022/01/img2.png?fit=969%2C750&ssl=1" alt="Whey Protein">
+            <div class="category-overlay">
+                <div class="category-title">WHEY PROTEIN</div>
+            </div>
+        </div>
+
+        <!-- Card Pré-Treino -->
+        <div class="category-card">
+            <img src="https://blog.darklabsuplementos.com.br/wp-content/uploads/2023/11/suplemento-pre-treino.png" alt="Pré-Treino">
+            <div class="category-overlay">
+                <div class="category-title">PRÉ-TREINO</div>
+            </div>
+        </div>
+
+        <!-- Card Creatina -->
+        <div class="category-card">
+            <img src="https://static.farmabemfarmacia.com.br/produto/multifotos/110-2_DM.jpeg" alt="Creatina">
+            <div class="category-overlay">
+                <div class="category-title">CREATINA</div>
+            </div>
+        </div>
     </div>
-    <div class="offer-item">
-        <img src="https://cdn.awsli.com.br/300x300/250/250305/produto/300619857/insane-clown---demons-01-viaefzua6l-ty3c4akwxw.png" alt="Oferta">
-        <h3>Pré Treino Insany Clow 10% OFF</h3>
-        <p>De R$124,00 por R$95,00</p>
-        <a href="pages/catalogo.html" class="btn btn-primary">Comprar Agora</a>
-    </div>
-    <div class="offer-item">
-        <img src="https://www.gsuplementos.com.br/upload/produto/imagem/creatina-100g-creapure-growth-supplements-1.png" alt="Oferta">
-        <h3>Creatina Monohidratada 300g 10% OFF</h3>
-        <p>De R$72,00 por R$62,00</p>
-        <a href="pages/catalogo.html" class="btn btn-primary">Comprar Agora</a>
-    </div>
-</div>
+
 
 <div id="beneficios">
     <img style="width: 183vh;" src="https://imgproxy2.cdn-retailhub.com/rs:fit/q:75/w:3840/format:webp/plain/https://cdn-retailhub.com/max-titanium/e8604831-2ac2-4d2c-8335-9bf86ed07129.jpg">
 </div>
+
+
+
+<div class="cont">
+       
+        <div class="product-card">
+            <div class="discount">14% OFF</div>
+            <img src="https://madrugaosuplementos.vtexassets.com/arquivos/ids/175481/creatina-titanium-300g-max-titanium_0.png?v=638539811370570000" alt="Iso Whey">
+            <h2 class="product-title">Creatina Max 300g</h2>
+            <div class="rating">⭐⭐⭐⭐☆ (135)</div>
+            <p class="old-price">R$ 57,00</p>
+            <p class="price">R$ 48,90</p>
+            <p class="pix-price">R$ 45,90</p>
+            <p class="payment-info">à vista no PIX</p>
+            <a href="#" class="btn-cad">VER PRODUTO</a>
+        </div>
+
+      
+        <div class="product-card">
+            <div class="discount">41% OFF</div>
+            <img src="https://acdn.mitiendanube.com/stores/002/218/616/products/crea1-abd8ff086c388782e017183634041853-1024-1024.png" alt="Top Whey 3W">
+            <h2 class="product-title">Creatina Dark Lab 300g</h2>
+            <div class="rating">⭐⭐⭐⭐☆ (162)</div>
+            <p class="old-price">R$ 83,00</p>
+            <p class="price">R$ 78,85</p>
+            <p class="pix-price">R$ 74,85</p>
+            <p class="payment-info">à vista no PIX</p>
+            <a href="#" class="btn-cad">VER PRODUTO</a>
+        </div>
+
+        <div class="product-card">
+            <div class="discount">35% OFF</div>
+            <img src="https://lojamaxtitanium.vtexassets.com/arquivos/ids/157992/100-Whey-Pote-900g-LinhaDino-CarameloMacchiato.png?v=638483764696830000" alt="Top Whey 3W">
+            <h2 class="product-title">Whey Protein Max</h2>
+            <div class="rating">⭐⭐⭐⭐☆ (162)</div>
+            <p class="old-price">R$ 126,44</p>
+            <p class="price">R$ 120,00</p>
+            <p class="pix-price">R$ 115,00</p>
+            <p class="payment-info">à vista no PIX</p>
+            <a href="#" class="btn-cad">VER PRODUTO</a>
+        </div>
+
+    </div>
 
 
 <div class="grid-container">
@@ -102,6 +150,42 @@
     </div>
 </div>
 
+
+<div class="cards-container">
+
+      <img src="https://imgproxy2.cdn-retailhub.com/rs:fit/q:75/w:1200/format:webp/plain/https://cdn-retailhub.com/max-titanium/476e5eb5-c992-4508-81de-60c8ef3192bb.jpg" alt="Benefícios da creatina" class="benefits-image">
+
+
+
+
+    <div class="products-section">
+      <div class="product">
+        <img src="https://integralmedica.vtexassets.com/arquivos/ids/166741/165359-auto-auto.png?v=638563018421900000">
+        <h3>Creatina Integral Médica 300g</h3>
+        <p class="price-old">R$ 71,00</p>
+        <p class="price-new">R$ 67,90</p>
+        <p class="price-pix">R$ 66,90 à vista no PIX</p>
+        <button id="ver-produto">Ver Produto</button>
+      </div>
+      <div class="product">
+        <img src="https://acdn.mitiendanube.com/stores/002/218/616/products/creatine-500g-frente-e4c1b5f9d7588d780e17291691384703-1024-1024.png">
+        <h3>Creatina Dark Lab 500g</h3>
+        <p class="price-old">R$ 84,90</p>
+        <p class="price-new">R$ 80,00</p>
+        <p class="price-pix">R$ 78,65 à vista no PIX</p>
+        <button id="ver-produto">Ver Produto</button>
+      </div>
+      <div class="product">
+        <img src="https://www.gsuplementos.com.br/upload/produto/layout/70/big-creatina-creapure-growth-v2.webp">
+        <h3>Creatina Growth 250g</h3>
+        <p class="price-old">R$ 63,00</p>
+        <p class="price-new">R$ 61,39</p>
+        <p class="price-pix">R$ 58,32 à vista no PIX</p>
+        <button id="ver-produto">Ver Produto</button>
+      </div>
+    </div>
+
+  </div>
 
 
 <div class="container">
