@@ -31,6 +31,14 @@ class ClienteSeeder extends Seeder
                 'produto_comprado' => 'Creatina Max 300g',
                 'forma_pagamento' => 'Boleto',
             ],
+            [
+                'nome' => 'Ricardo',
+                'email' => 'ricardo@gmail.com',
+                'valor_total' => '57.00',
+                'produto_comprado' => 'Creatina Dark Lab 300g',
+                'forma_pagamento' => 'Pix',
+
+            ],
               
         ]);
     }
