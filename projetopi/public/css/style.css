@@ -460,7 +460,7 @@ body {
 
   .cards-container {
     max-width: 1200px;
-    margin-left: 25vh;
+    margin-left: 15vh;
     padding: 20px;
     display: flex;
     margin-top: 7vh;
@@ -474,8 +474,8 @@ body {
   }
   
   .benefits-image {
-    max-width: 400px;
-    height: 400px;
+    max-width: 500px;
+    height: 500px;
     margin-right: 20px;
   }
   
@@ -496,8 +496,8 @@ body {
 .products-section{
     margin-left: 6vh;
     display: flex;
+    gap: 40px;
 }
-
 
   .products-section h2 {
     margin-bottom: 20px;

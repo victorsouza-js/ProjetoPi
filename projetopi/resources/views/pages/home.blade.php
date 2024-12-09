@@ -120,7 +120,7 @@
             <div class="discount">35% OFF</div>
             <img src="https://lojamaxtitanium.vtexassets.com/arquivos/ids/157992/100-Whey-Pote-900g-LinhaDino-CarameloMacchiato.png?v=638483764696830000" alt="Top Whey 3W">
             <h2 class="product-title">Whey Protein Max</h2>
-            <div class="rating">⭐⭐⭐⭐☆ (162)</div>
+            <div class="rating">⭐⭐⭐⭐⭐ (206)</div>
             <p class="old-price">R$ 126,44</p>
             <p class="price">R$ 120,00</p>
             <p class="pix-price">R$ 115,00</p>
@@ -155,9 +155,6 @@
 
       <img src="https://imgproxy2.cdn-retailhub.com/rs:fit/q:75/w:1200/format:webp/plain/https://cdn-retailhub.com/max-titanium/476e5eb5-c992-4508-81de-60c8ef3192bb.jpg" alt="Benefícios da creatina" class="benefits-image">
 
-
-
-
     <div class="products-section">
       <div class="product">
         <img src="https://integralmedica.vtexassets.com/arquivos/ids/166741/165359-auto-auto.png?v=638563018421900000">
@@ -184,6 +181,41 @@
         <button id="ver-produto">Ver Produto</button>
       </div>
     </div>
+
+  </div>
+
+
+
+  <div class="cards-container">
+
+    <div class="products-section">
+      <div class="product">
+        <img src="https://d2vq4s943o8cb4.cloudfront.net/Custom/Content/Products/50/62/5062966_100-whey-protein-max-titanium-4443_m1_637437988301914683.png">
+        <h3>Whey Protein Max 900g s:Chocolate</h3>
+        <p class="price-old">R$ 120,00</p>
+        <p class="price-new">R$ 115,90</p>
+        <p class="price-pix">R$ 100,00 à vista no PIX</p>
+        <button id="ver-produto">Ver Produto</button>
+      </div>
+      <div class="product">
+        <img src="https://cdn.awsli.com.br/2500x2500/2335/2335458/produto/282603079/100--whey-900g-baunilha-xfqgeajll1.png">
+        <h3>Whey Protein Integral 900g s:Baunilha</h3>
+        <p class="price-old">R$ 115,00</p>
+        <p class="price-new">R$ 100,00</p>
+        <p class="price-pix">R$ 95,99 à vista no PIX</p>
+        <button id="ver-produto">Ver Produto</button>
+      </div>
+      <div class="product">
+        <img src="{{asset('imgs/whey.png')}}">
+        <h3>Whey Protein Max 900g s:Morango</h3>
+        <p class="price-old">R$ 120,00</p>
+        <p class="price-new">R$ 115,00</p>
+        <p class="price-pix">R$ 100,00 à vista no PIX</p>
+        <button id="ver-produto">Ver Produto</button>
+      </div>
+    </div>
+
+    <img style="margin-left: 7vh;" src="https://imgproxy2.cdn-retailhub.com/rs:fit/q:75/w:1200/format:webp/plain/https://cdn-retailhub.com/max-titanium/6071340b-438e-4062-a236-946fea08e4bc.jpg" alt="Benefícios da creatina" class="benefits-image">
 
   </div>
 
