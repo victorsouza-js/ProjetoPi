@@ -5,9 +5,13 @@
 @section('content')
 
 
+
+<h2 style="color: white; margin-left: 5vh; margin-top: 5vh;" id="welcome-message" class="animate__animated animate__fadeInDown"></h2>
+
+
 <div class="div-nav">
 <div class="base">
-        <h1>POWERUP</h1>
+        <h1 >POWERUP</h1>
         <h2>Suplementos</h2>
         <p>Os melhores suplementos você encontra aqui!</p>
         <a class="nav-button" href="{{ url('/catalogo') }}">Confira Nossos Produtos</a>
@@ -269,6 +273,8 @@
     </form>
 </div>
 
+
+
 <div vw class="enabled">
     <div vw-access-button class="active"></div>
     <div vw-plugin-wrapper>
@@ -285,10 +291,9 @@
   </script>
 
 <script>
-    // Seleciona o botão
+   
     const backToTopButton = document.getElementById('back-to-top');
 
-    // Mostrar ou ocultar o botão ao rolar a página
     window.addEventListener('scroll', () => {
         if (window.scrollY > 200) {
             backToTopButton.style.display = 'block';
@@ -297,12 +302,25 @@
         }
     });
 
-    // Rolar suavemente até o topo quando o botão for clicado
     backToTopButton.addEventListener('click', () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 </script>
 
+
+<script>
+    const messages = ["Bem-vindo(a) à PowerUp!", "Encontre os melhores suplementos!", "Cuide da sua saúde com a gente!"];
+let index = 0;
+
+function changeMessage() {
+    document.getElementById('welcome-message').textContent = messages[index];
+    index = (index + 1) % messages.length;
+}
+
+setInterval(changeMessage, 3000);
+changeMessage();
+
+</script>
 
 
 @endsection
