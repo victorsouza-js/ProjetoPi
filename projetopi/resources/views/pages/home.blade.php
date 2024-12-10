@@ -185,7 +185,6 @@
   </div>
 
 
-
   <div class="cards-container">
 
     <div class="products-section">
@@ -218,6 +217,8 @@
     <img style="margin-left: 7vh;" src="https://imgproxy2.cdn-retailhub.com/rs:fit/q:75/w:1200/format:webp/plain/https://cdn-retailhub.com/max-titanium/6071340b-438e-4062-a236-946fea08e4bc.jpg" alt="Benefícios da creatina" class="benefits-image">
 
   </div>
+
+  <a id="saiba-mais" href="{{asset('/saiba-mais')}}">Saiba Mais</a>
 
 
 <div class="container">

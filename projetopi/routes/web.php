@@ -43,6 +43,11 @@ Route::get('/sucesso', function(){
     return view('sucesso');
 });
 
+Route::get('/saiba-mais', function(){
+    return view('saiba-mais');
+});
+
+
 
 
 
