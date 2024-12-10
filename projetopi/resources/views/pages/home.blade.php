@@ -20,7 +20,7 @@
     
 </div>
 
-<div class="sobre-nav"  data-aos="fade-down">
+<div class="sobre-nav"   data-aos="fade-down">
     <h1>SOBRE A POWERUP SUPLEMENTOS</h1>
     <div class="linha"></div>
     <img src="{{ asset('imgs/logo.png') }}">
@@ -28,7 +28,7 @@
     <a href="{{ url('/sobre') }}">Saiba Mais</a>
 </div>
 
-<div id="carouselExampleIndicators" class="carousel slide"  data-aos="fade-down">
+<div id="carouselExampleIndicators" class="carousel slide"  data-aos="fade-down" >
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
