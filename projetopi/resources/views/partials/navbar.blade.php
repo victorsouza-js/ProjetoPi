@@ -9,7 +9,6 @@
 
         <a href="{{ url('/') }}" class="navbar-link">Inicio</a> 
         <a href="{{ url('/contato') }}" class="navbar-link">Contato</a> 
-        <a href="{{ url('/cadastro') }}" class="navbar-link">Cadastrar-se</a> 
         <a href="{{ url('/login') }}" class="navbar-link">Faça seu login</a>
         <form class="d-flex" role="search">
             <input id="searchInput" class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
