@@ -42,6 +42,11 @@ Route::get('/finalizar', function(){
     return view('pages/finalizar-compra');
 });
 
+Route::get('/sucesso', function(){
+    return view('sucesso');
+});
+
+
 
 
 

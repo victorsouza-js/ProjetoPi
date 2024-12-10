@@ -18,8 +18,8 @@
             <input type="password" placeholder="Senha">
             <input type="password" placeholder="Confirmar Senha">
             <a href="">Esqueceu sua senha?</a>
-            <button type="submit">Concluir Cadastro</button>
-        </form>
+            <a id="concluir" href="{{ url('/sucesso') }}">Concluir Cadastro</a>
+            </form>
         </div>
     </div>
 

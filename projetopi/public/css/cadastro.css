@@ -69,7 +69,7 @@ body {
     transform: scale(0.98);
 }
 
-.form-cad button {
+.form-cad #concluir {
     padding: 15px;
     color: white;
     background-color: #0f2027da;
@@ -79,9 +79,11 @@ body {
     outline: none;
     width: 100%;
     transition: transform 0.2s;
+    text-align: center;
+    text-decoration: none;
 }
 
-.form-cad button:hover {
+.form-cad #concluir:hover {
     background-color: white;
     cursor: pointer;
     color: black;
