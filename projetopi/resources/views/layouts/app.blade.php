@@ -25,20 +25,8 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        AOS.init({
-            duration: 1000,
-            easing: 'ease-in-out',
-            once: true,
-        });
-    });
-</script>
-
-
-
-
-
-
+        AOS.init();
+    </script>
 
 </body>
 </html>

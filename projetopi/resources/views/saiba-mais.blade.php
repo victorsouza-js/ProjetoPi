@@ -67,7 +67,6 @@
 
 <script>
 
-// Funcionalidade para as FAQs
 const questions = document.querySelectorAll('.faq-question');
 
 questions.forEach(question => {
@@ -78,8 +77,6 @@ questions.forEach(question => {
         question.querySelector('i').classList.toggle('fa-chevron-up');
     });
 });
-
-
 
 </script>
 
