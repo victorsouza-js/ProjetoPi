@@ -9,10 +9,10 @@
 <h2 style="color: white; margin-left: 5vh; margin-top: 5vh;" id="welcome-message" class="animate__animated animate__fadeInDown"></h2>
 
 
-<div class="div-nav">
-<div class="base">
-        <h1 >POWERUP</h1>
-        <h2>Suplementos</h2>
+<div class="div-nav" data-aos="fade-down">
+<div class="base"  data-aos="fade-up">
+        <h1 class="fade-in">POWERUP</h1>
+        <h2 class="fade-in">Suplementos</h2>
         <p>Os melhores suplementos você encontra aqui!</p>
         <a class="nav-button" href="{{ url('/catalogo') }}">Confira Nossos Produtos</a>
     </div>
@@ -20,7 +20,7 @@
     
 </div>
 
-<div class="sobre-nav">
+<div class="sobre-nav"  data-aos="fade-down">
     <h1>SOBRE A POWERUP SUPLEMENTOS</h1>
     <div class="linha"></div>
     <img src="{{ asset('imgs/logo.png') }}">
@@ -28,7 +28,7 @@
     <a href="{{ url('/sobre') }}">Saiba Mais</a>
 </div>
 
-<div id="carouselExampleIndicators" class="carousel slide">
+<div id="carouselExampleIndicators" class="carousel slide"  data-aos="fade-down">
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -60,8 +60,7 @@
 </div>
 
 
-<div class="categories">
-        <!-- Card Whey Protein -->
+<div class="categories"  data-aos="fade-down">
         <div class="category-card">
             <img src="https://i0.wp.com/vegashop.com.br/wp-content/uploads/2022/01/img2.png?fit=969%2C750&ssl=1" alt="Whey Protein">
             <div class="category-overlay">
@@ -69,7 +68,6 @@
             </div>
         </div>
 
-        <!-- Card Pré-Treino -->
         <div class="category-card">
             <img src="https://blog.darklabsuplementos.com.br/wp-content/uploads/2023/11/suplemento-pre-treino.png" alt="Pré-Treino">
             <div class="category-overlay">
@@ -77,7 +75,6 @@
             </div>
         </div>
 
-        <!-- Card Creatina -->
         <div class="category-card">
             <img src="https://static.farmabemfarmacia.com.br/produto/multifotos/110-2_DM.jpeg" alt="Creatina">
             <div class="category-overlay">
@@ -87,13 +84,13 @@
     </div>
 
 
-<div id="beneficios">
+<div id="beneficios"  data-aos="fade-down">
     <img style="width: 183vh;" src="https://imgproxy2.cdn-retailhub.com/rs:fit/q:75/w:3840/format:webp/plain/https://cdn-retailhub.com/max-titanium/e8604831-2ac2-4d2c-8335-9bf86ed07129.jpg">
 </div>
 
 
 
-<div class="cont">
+<div class="cont"  data-aos="fade-down">
        
         <div class="product-card">
             <div class="discount">14% OFF</div>
@@ -135,7 +132,7 @@
     </div>
 
 
-<div class="grid-container">
+<div class="grid-container"  data-aos="fade-down">
     <div class="grid-item">
         <img src="https://img.odcdn.com.br/wp-content/uploads/2021/08/shutterstock_1861917607.jpg" alt="Ganho de Massa">
         <div class="overlay-text">GANHO DE MASSA</div>
@@ -155,7 +152,7 @@
 </div>
 
 
-<div class="cards-container">
+<div class="cards-container"  data-aos="fade-down">
 
       <img src="https://imgproxy2.cdn-retailhub.com/rs:fit/q:75/w:1200/format:webp/plain/https://cdn-retailhub.com/max-titanium/476e5eb5-c992-4508-81de-60c8ef3192bb.jpg" alt="Benefícios da creatina" class="benefits-image">
 
@@ -189,7 +186,7 @@
   </div>
 
 
-  <div class="cards-container">
+  <div class="cards-container"  data-aos="fade-down">
 
     <div class="products-section">
       <div class="product">
@@ -225,7 +222,7 @@
   <a id="saiba-mais" href="{{asset('/saiba-mais')}}">Saiba Mais</a>
 
 
-<div class="container">
+<div class="container"  data-aos="fade-down">
     <div class="card">
         <img src="{{ asset('imgs/img-banner-1.jpg') }}">
         <div class="overlay">
@@ -250,7 +247,7 @@
 </div>
 
 
-<div class="faq">
+<div class="faq"  data-aos="fade-down">
     <h1>PERGUNTAS FREQUENTES</h1>
     <div class="linha"></div>
     <details>
@@ -264,7 +261,7 @@
 </div>
 
 
-<div class="newsletter">
+<div class="newsletter"  data-aos="fade-down">
     <h2>Inscreva-se na nossa Newsletter</h2>
     <p>Receba as melhores ofertas e novidades direto no seu email.</p>
     <form action="newsletter.php" method="post">
