@@ -56,7 +56,7 @@ class ProdutoSeeder extends Seeder
                 'updated_at' => now(),
             ],
             [
-                'nome' => 'Whey Protein Max 1kg',
+                'nome' => 'Whey Protein Max 900g',
                 'preco' => '120.00',
                 'qtd_estoque' => '1004',
                 'preco_promocional' => '99.00',
@@ -64,6 +64,34 @@ class ProdutoSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
+            [
+                'nome' => 'Whey Protein IntegralMédica 900g',
+                'preco' => '115.00',
+                'qtd_estoque' => '1004',
+                'preco_promocional' => '96.99',
+                'peso' => '0.300',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'nome' => 'Pré Treino Dark Lab Venom 300g',
+                'preco' => '99.95',
+                'qtd_estoque' => '1004',
+                'preco_promocional' => '88.00',
+                'peso' => '0.300',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'nome' => 'Pré Treino Max s:Frutas Vermelhas 300g',
+                'preco' => '95.00',
+                'qtd_estoque' => '1004',
+                'preco_promocional' => '85.00',
+                'peso' => '0.300',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+          
             
             
             
