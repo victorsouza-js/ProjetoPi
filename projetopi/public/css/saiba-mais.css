@@ -1,4 +1,4 @@
-/* Reset básico */
+/* Reset Básico */
 * {
     margin: 0;
     padding: 0;
@@ -6,228 +6,110 @@
     font-family: Arial, sans-serif;
 }
 
-/* Estilos gerais */
+/* Estilos Globais */
 body {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
-    scroll-behavior: smooth;
 }
 
-/* Cabeçalho */
-.header {
-    background: url('https://www.vhita.com.br/cdn/shop/articles/Creatina-1.jpg?v=1722615060&width=2048') no-repeat center/cover;
-    color: #fff;
-    padding: 80px 20px;
-    text-align: center;
-}
-
-/* Seções */
-.section {
-    padding: 40px 20px;
-    text-align: center;
-}
-
-.section img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-}
-
-.section h2 {
+h1, h2 {
     margin-bottom: 20px;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://i0.wp.com/www.magnuspersonal.com.br/wp-content/uploads/2022/04/x-cuidados-que-voce-deve-ter-na-musculacao-Magnus-Personal-Trainer.jpg?fit=800%2C448&ssl=1') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-/* Benefícios */
-#benefits {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.benefit {
-    background: #fff;
-    padding: 20px;
-    width: 250px;
-    border-radius: 10px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-
-}
-
-/* Vídeo */
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-}
-
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-/* FAQ */
-.faq-item {
-    margin: 20px 0;
-}
-
-.faq-question {
-    width: 100%;
-    padding: 15px;
-    background: gray;
-    color: #fff;
-    border: none;
-    text-align: left;
-    cursor: pointer;
-    font-size: 1.1em;
-    display: flex;
-    justify-content: space-between;
-}
-
-.faq-answer {
-    display: none;
-    padding: 15px;
-    background: #f4f4f4;
-    border-left: 3px solid gray;
-}
-
-/* Chamada para Ação */
-.cta {
-    background: gray;
-    color: #fff;
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.cta-button {
+.hero .btn {
     display: inline-block;
-    background: #fff;
-    color: gray;
-    padding: 15px 30px;
-    font-size: 1em;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-
-
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-/* Estilos gerais */
-body {
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
-    scroll-behavior: smooth;
-}
-
-/* Cabeçalho */
-.header-whey {
-    background: url('https://blog.sanavita.com.br/wp-content/uploads/2023/05/573465235236-1-1140x740-1-1024x665.jpg') no-repeat center center/cover;
+    background: #e63946;
     color: #fff;
-    padding: 80px 20px;
-    text-align: center;
-    margin-top: 10vh;
-}
-
-/* Seções */
-.section {
-    padding: 40px 20px;
-    text-align: center;
-}
-
-.section img {
-    max-width: 100%;
-    height: auto;
+    padding: 10px 20px;
     margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 /* Benefícios */
-#benefits {
+.benefit-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
+    align-items: center;
 }
 
-.benefit {
-    background: #fff;
-    padding: 20px;
-    width: 250px;
+.benefit-content img {
+    max-width: 100%;
     border-radius: 10px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Vídeo */
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
+.benefit-content ul {
+    list-style: none;
+    text-align: left;
 }
 
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+.benefit-content li {
+    font-size: 18px;
+    margin-bottom: 15px;
 }
 
-/* FAQ */
+.benefit-content i {
+    color: #e63946;
+    margin-right: 10px;
+}
+
+/* FAQs */
 .faq-item {
-    margin: 20px 0;
+    margin-bottom: 20px;
 }
 
 .faq-question {
-    width: 100%;
-    padding: 15px;
     background: #e63946;
     color: #fff;
-    border: none;
+    padding: 15px;
+    width: 100%;
     text-align: left;
+    border: none;
+    outline: none;
     cursor: pointer;
-    font-size: 1.1em;
-    display: flex;
-    justify-content: space-between;
+    font-size: 18px;
 }
 
 .faq-answer {
     display: none;
+    background: #fff;
     padding: 15px;
-    background: #f4f4f4;
-    border-left: 3px solid #e63946;
+    border: 1px solid #ddd;
+    border-top: none;
 }
 
-/* Chamada para Ação */
+/* CTA */
 .cta {
     background: #e63946;
     color: #fff;
     padding: 50px 20px;
-    text-align: center;
 }
 
-.cta-button {
-    display: inline-block;
+.cta .btn {
     background: #fff;
     color: #e63946;
-    padding: 15px 30px;
-    font-size: 1em;
+    padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
+    font-weight: bold;
 }
