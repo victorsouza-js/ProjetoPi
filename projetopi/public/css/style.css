@@ -260,6 +260,13 @@ html {
     transform: scale(0.95);
 }
 
+.carousel-item img {
+    transition: transform 1s ease-in-out;
+}
+
+.carousel-item img:hover {
+    transform: scale(1.02);
+}
 
 
 .carousel-item .d-block{
