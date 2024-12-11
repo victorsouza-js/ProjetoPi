@@ -64,6 +64,8 @@ function togglePasswordVisibility() {
             alert('E-mail ou senha incorretos.');
             return false;
         }
+
+        
     }
 </script>
 
