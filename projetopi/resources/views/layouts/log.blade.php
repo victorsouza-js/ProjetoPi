@@ -17,6 +17,19 @@
 
 
     <script>
+
+function togglePasswordVisibility() {
+        const senhaInput = document.getElementById('senha');
+        const icon = event.currentTarget;
+
+        if (senhaInput.type === 'password') {
+            senhaInput.type = 'text';
+            icon.textContent = '🙈'; // Ícone de esconder senha
+        } else {
+            senhaInput.type = 'password';
+            icon.textContent = '👁️'; // Ícone de mostrar senha
+        }
+    }
    
     window.onload = function () {
         const email = localStorage.getItem('email');
