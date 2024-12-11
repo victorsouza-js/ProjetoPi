@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 
+
 Route::get('/', function () {
     return view('pages/home'); // Página inicial
 });
@@ -46,6 +47,8 @@ Route::get('/sucesso', function(){
 Route::get('/saiba-mais', function(){
     return view('saiba-mais');
 });
+
+
 
 
 
