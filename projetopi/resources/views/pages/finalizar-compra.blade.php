@@ -9,16 +9,16 @@
 
 function exibirResumoCarrinho() {
     const carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
-    const resumo = document.getElementById("resumo-carrinho");
+    const resumo = document.getElementById("lista-carrinho");
     let total = 0;
 
     resumo.innerHTML = "";
     carrinho.forEach(produto => {
         const subtotal = produto.preco * produto.quantidade;
         const item = document.createElement("li");
-        item.innerText = `${produto.nome} - Quantidade: ${produto.quantidade} - Subtotal: R$ ${subtotal.toFixed(2)}`;
+        item.innerText = `${produto.nome} - Quantidade: ${produto.quantidade} - Subtotal: R$ ${produto.preco.toFixed(2)}`;
         resumo.appendChild(item);
-        total += subtotal;
+        total += produto.preco;
     });
 
     const totalElement = document.getElementById("total");
@@ -51,7 +51,7 @@ window.onload = exibirResumoCarrinho;
 
     <main>
         <h2>Resumo da Compra</h2>
-        <ul id="resumo-carrinho"></ul>
+        <ul id="lista-carrinho"></ul>
         <p id="total"></p>
 
         <h2>Escolha o Método de Pagamento</h2>
@@ -70,12 +70,38 @@ window.onload = exibirResumoCarrinho;
             <p>Geramos um boleto para você realizar o pagamento.</p>
             <button onclick="gerarBoleto()">Gerar Boleto</button>
         </div>
+
+        <button id="finalizar-compra" style="margin-top: 20px;" onclick="finalizarCompra()">Finalizar Compra</button>
+
     </main>
 
     <script>
         function gerarBoleto() {
             alert("Boleto gerado com sucesso! Código de barras: 1234 5678 9012 3456 7890");
         }
+    </script>
+
+    <script>
+        function finalizarCompra() {
+            alert("Compra finalizada com sucesso!");
+        }
+    </script>
+
+    <script>
+        function finalizarCompra() {
+    const carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
+    
+    if (carrinho.length === 0) {
+        alert("Seu carrinho está vazio. Adicione itens antes de finalizar a compra.");
+        return;
+    }
+
+    alert("Compra finalizada com sucesso! Obrigado por comprar na PowerUp Suplementos.");
+
+    localStorage.removeItem("carrinho");
+    window.location.href = "{{asset('/')}}"; 
+}
+
     </script>
 
 
