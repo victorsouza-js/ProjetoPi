@@ -7,7 +7,7 @@
   <h2>Cadastro finalizado com sucesso!</h2>
   <p>Seja bem-vindo(a) à PowerUp Suplementos!</p>
   <div class="voltar">
-  <a href="{{ url('/') }}">Voltar para a página inicial</a>
+  <a href="{{ url('/login') }}">Voltar para a página de login</a>
   </div>
 </div>
 @endsection

@@ -16,5 +16,43 @@
     </main>
 
 
+    <script>
+   
+    window.onload = function () {
+        const email = localStorage.getItem('email');
+        const senha = localStorage.getItem('senha');
+
+        if (email) {
+            document.getElementById('email').value = email;
+        }
+
+        if (senha) {
+            document.getElementById('senha').value = senha;
+        }
+    };
+
+    function verificarLogin() {
+        const email = document.getElementById('email').value.trim();
+        const senha = document.getElementById('senha').value.trim();
+
+        if (!email || !senha) {
+            alert('Por favor, preencha todos os campos.');
+            return false;
+        }
+
+       
+        const emailArmazenado = localStorage.getItem('email');
+        const senhaArmazenada = localStorage.getItem('senha');
+
+        if (email === emailArmazenado && senha === senhaArmazenada) {
+            alert('Login bem-sucedido!');
+            return true; 
+        } else {
+            alert('E-mail ou senha incorretos.');
+            return false;
+        }
+    }
+</script>
+
 </body>
 </html>

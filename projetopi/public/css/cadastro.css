@@ -42,13 +42,13 @@ body {
     border-radius: 15px;
 }
 
-.form-cad form {
+.form-cad #cadastroForm {
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 
-.form-cad form input {
+.form-cad #cadastroForm input {
     padding: 15px;
     color: black;
     background-color: white;

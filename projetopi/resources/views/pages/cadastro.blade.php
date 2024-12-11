@@ -12,16 +12,17 @@
         </div>
         
         <div class="form-cad">
-        <form>
-            <input type="text" placeholder="Usuário">
-            <input type="email" placeholder="E-mail">
-            <input type="password" placeholder="Senha">
-            <input type="password" placeholder="Confirmar Senha">
+        <form id="cadastroForm" onsubmit="salvarDadosCadastro(event)">
+            <input type="text" id="usuario" placeholder="Usuário" required>
+            <input type="email" id="email" placeholder="E-mail" required>
+            <input type="password" id="senha" placeholder="Senha" required>
+            <input type="password" id="confirmarSenha" placeholder="Confirmar Senha" required>
             <a href="">Esqueceu sua senha?</a>
-            <a id="concluir" href="{{ url('/sucesso') }}">Concluir Cadastro</a>
+            <button type="submit" id="concluir">Concluir Cadastro</button>
             </form>
         </div>
     </div>
+
 
 
 @endsection
